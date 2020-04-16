@@ -10,7 +10,7 @@ cd hackertyper
 ```
 using CMake
 ```
-cmake
+cmake CMakeLists.txt
 ```
 CMake will generate a Makefile for us.
 then: 
