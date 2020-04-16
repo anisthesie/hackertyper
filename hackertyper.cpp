@@ -45,15 +45,6 @@ int main() {
 			i = 0;
 		read(fileno(stdin), &c, 1);
 	}
-//        else if( res < 0 )
-//        {
-//            perror( "select error" );
-//            break;
-//        }
-//        else
-//        {
-//            printf( "Select timeout\n" );
-//        }
 
 	tcsetattr(fileno( stdin), TCSANOW, &oldSettings);
 	return 0;
