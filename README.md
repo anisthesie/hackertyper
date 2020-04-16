@@ -1,7 +1,7 @@
 # hackertyper
 Quick and simple HackerTyper-like terminal application for linux.
 
-#Building
+# Building
 ```
 git clone https://github.com/Lowdinggg/hackertyper.git
 ```
@@ -22,3 +22,5 @@ to run it:
 ```
 ./hackertyper
 ```
+# editing
+to edit the written text, just edit the 'str' global variable, put "\n" for each line jump.
