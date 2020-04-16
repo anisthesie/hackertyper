@@ -38,7 +38,7 @@ int main() {
 	while (res > 0) {
 		char c;
 		system("clear");
-		text += str[i]
+		text += str[i];
 		std::cout << text << std::endl;
 		i++;
 		if(i >= str.length())
