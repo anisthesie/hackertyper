@@ -33,8 +33,6 @@ int main() {
 
 	int res = select(fileno( stdin) + 1, &set, NULL, NULL, &tv);
 
-	system("clear");
-
 	while (res > 0) {
 		char c;
 		system("clear");
