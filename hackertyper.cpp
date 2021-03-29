@@ -8,7 +8,7 @@
 #include <cstdlib>
 #include <string.h>
 
-std::string str = " std::string str[5] = { \"je\", \"suis\", \"un\", \"gros\", \"canrd\" };\n\nint main() {\n\nstruct termios oldSettings, newSettings;\n\nint i = 0;\nstd::string text = "";\n\ntcgetattr(fileno( stdin), &oldSettings);\n";
+std::string str = " std::string str[5] = { \"linux\", \"system\", \"git\", \"advanced\", \"command\" };\n\nint main() {\n\nstruct termios oldSettings, newSettings;\n\nint i = 0;\nstd::string text = "";\n\ntcgetattr(fileno( stdin), &oldSettings);\n";
 
 int main() {
 
